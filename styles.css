@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+.info span {
+    font-weight: bold;
+    color: #667eea;
+}
+
+#gameCanvas {
+    border: 2px solid #333;
+    cursor: crosshair;
+    display: block;
+    margin: 0 auto 20px;
+    background: #f5f5f5;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: white;
+}
+
+#startBtn {
+    background: #4CAF50;
+}
+
+#startBtn:hover {
+    background: #45a049;
+}
+
+#stopBtn {
+    background: #f44336;
+}
+
+#stopBtn:hover {
+    background: #da190b;
+}
+
+#clearBtn {
+    background: #ff9800;
+}
+
+#clearBtn:hover {
+    background: #e68900;
+}
+
+#randomBtn {
+    background: #2196F3;
+}
+
+#randomBtn:hover {
+    background: #0b7dda;
+}
+
+#stepBtn {
+    background: #9c27b0;
+}
+
+#stepBtn:hover {
+    background: #7b1fa2;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+.speed-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #555;
+    font-size: 1em;
+}
+
+#speedSlider {
+    width: 200px;
+}
+
+#speedValue {
+    font-weight: bold;
+    color: #667eea;
+    min-width: 30px;
+}
