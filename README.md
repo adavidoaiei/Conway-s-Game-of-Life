@@ -1,3 +1,4 @@
+![App Screenshot](https://github.com/adavidoaiei/Conway-s-Game-of-Life/blob/main/desktop.png)
 # Conway's Game of Life
 
 A web-based implementation of Conway's Game of Life, a cellular automaton devised by mathematician John Conway.
